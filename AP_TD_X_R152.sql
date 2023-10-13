@@ -33,6 +33,6 @@ RETURN 0;
 EXCEPTION
   WHEN OTHERS THEN
     ora_raiserror(SQLCODE, 'Failed to execute AP_TD_X_R152', 39);
-  RETURN 95;
+  RETURN 9222;
 END;
 /
